@@ -1,30 +1,41 @@
-# we-plugin-paypal
+# We.js paypal integration plugin
 
-> [write something about your plugin here]
+> This plugin add paypal SDK in your We.js project
 
+## Installation
 
-clicar em "participar"
-pagina de seleção de valor
-cliar em comprar se não for gratuito
-ir para pagina de dados básicos ( se logado preenche automaticamente )
-preencher e clicar em pagamento ou finalizar (gratuito)
-ir para página de seleção de form de pagamento
-finalizar pedido 
-  inicia processo com o gatway de pagamento
-logar ou registrar
+```sh
+npm install --save we-plugin-paypal we-plugin-payment
+```
 
+## Configuration
 
+### 1. First get client_id and client_secret in paypal:
 
-# API
+Configure and get your keys in: https://developer.paypal.com/
+
+### 2. In: [project]/config/local.js
+
+```js
+    // ...
+    apiKeys: {
+      paypall: {
+        mode: 'sandbox', //sandbox or live
+        'client_id': 'yourPaypalClientId',
+        'client_secret': 'yourPaypalClientSecret',
+      }
+    },  
+    // other configs ...
+```
 
 
 ## Links
 
 > * We.js site: http://wejs.org
 
-#Copyright and license
+## License
 
-Copyright 2013-2015 [your name] <[your email@email]> and contributors , under [the MIT license](LICENSE).
+MIT license](https://github.com/wejs/we-core/blob/master/LICENSE.md).
 
 
 

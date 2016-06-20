@@ -26,21 +26,19 @@
     "we-theme-site-wejs": "wejs/we-theme-site-wejs"
   },
   "keywords": [
-    "we.js",
-    "wejs",
-    "plugin",
-    "payment",
-    "paypal"
+    "wejs-plugin"
   ],
   "files": [
     "plugin.js",
     "lib",
     "server"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:wejs/we-plugin-paypal.git"
-  },
+  "repository": "wejs/we-plugin-paypal",
   "author": "Alberto Souza <contato@albertosouza.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "wejs": {
+    "dependencies": {
+      "we-plugin-payment": true
+    }
+  }
 }

@@ -4,12 +4,12 @@
 [![Dependency Status](https://david-dm.org/wejs/we-plugin-paypal.png)](https://david-dm.org/wejs/we-plugin-paypal)
 [![Coverage Status](https://coveralls.io/repos/github/wejs/we-plugin-paypal/badge.svg?branch=master)](https://coveralls.io/github/wejs/we-plugin-paypal?branch=master)
 
-> This plugin add paypal SDK in your We.js project
+Add paypal SDK in your We.js project
 
 ## Installation
 
 ```sh
-npm install --save we-plugin-paypal we-plugin-payment
+we i-we-plugin-paypal
 ```
 
 ## Configuration

@@ -1,6 +1,6 @@
 {
   "name": "we-plugin-paypal",
-  "description": "We.js we-plugin-paypal plugin",
+  "description": "We.js PayPal payment option plugin",
   "version": "1.0.0",
   "main": "plugin.js",
   "scripts": {
@@ -8,17 +8,17 @@
     "coverage": "NODE_ENV=test LOG_LV=info node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -u exports -R spec test/bootstrap.js test/**/*.test.js"
   },
   "dependencies": {
-    "paypal-rest-sdk": "^1.6.8"
+    "paypal-rest-sdk": "^1.7.1"
   },
   "devDependencies": {
-    "express-mysql-session": "^1.0.0",
-    "fs-extra": "^0.18.2",
-    "istanbul": "^0.4.3",
-    "mocha": "^2.2.5",
-    "mysql": "^2.10.2",
-    "rimraf": "^2.3.4",
-    "sinon": "^1.17.4",
-    "supertest": "^1.0.1",
+    "express-mysql-session": "^1.2.0",
+    "fs-extra": "^2.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mysql": "^2.13.0",
+    "rimraf": "^2.5.4",
+    "sinon": "^1.17.7",
+    "supertest": "^2.0.1",
     "we-core": "wejs/we-core",
     "we-plugin-form": "wejs/we-plugin-form",
     "we-test-tools": "wejs/we-test-tools",

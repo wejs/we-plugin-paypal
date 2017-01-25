@@ -20,13 +20,12 @@
     "sinon": "^1.17.7",
     "supertest": "^2.0.1",
     "we-core": "wejs/we-core",
-    "we-plugin-form": "wejs/we-plugin-form",
-    "we-test-tools": "wejs/we-test-tools",
-    "we-theme-admin-default": "wejs/we-theme-admin-default",
-    "we-theme-site-wejs": "wejs/we-theme-site-wejs"
+    "we-test-tools": "wejs/we-test-tools"
   },
   "keywords": [
-    "wejs-plugin"
+    "wejs-plugin",
+    "paypal",
+    "payment"
   ],
   "files": [
     "plugin.js",

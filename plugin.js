@@ -4,10 +4,10 @@
  * see http://wejs.org/docs/we/plugin
  */
 
-var paypal = require('paypal-rest-sdk');
+const paypal = require('paypal-rest-sdk');
 
 module.exports = function loadPlugin(projectPath, Plugin) {
-  var plugin = new Plugin(__dirname);
+  const plugin = new Plugin(__dirname);
 
   plugin.paypal = paypal;
   // set plugin configs
